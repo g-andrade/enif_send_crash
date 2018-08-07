@@ -1,0 +1,11 @@
+{application, enif_send_crash,
+ [{description, "An OTP application"},
+  {vsn, "0.0.0"},
+  {registered, []},
+  {applications,
+   [kernel,
+    stdlib
+   ]},
+  {env,[]},
+  {modules, []}
+ ]}.
